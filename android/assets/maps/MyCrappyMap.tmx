@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" tilecount="48" columns="8">
+  <image source="../../../../../../../Program Files (x86)/Tiled/examples/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="tileset" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="tileset.png" width="512" height="512"/>
+  <terraintypes>
+   <terrain name="road" tile="-1"/>
+   <terrain name="small-tree" tile="-1"/>
+  </terraintypes>
+  <tile id="183" terrain="0,0,0,0"/>
+  <tile id="184" terrain="0,0,0,0"/>
+  <tile id="199" terrain="0,0,0,0"/>
+  <tile id="200" terrain="0,0,0,0"/>
+  <tile id="215" terrain=",1,,1"/>
+  <tile id="216" terrain="1,,1,"/>
+  <tile id="231" terrain="1,1,1,1"/>
+  <tile id="232" terrain="1,1,1,1"/>
+  <tile id="247" terrain="1,1,1,1"/>
+  <tile id="248" terrain="1,1,1,1"/>
+ </tileset>
+ <tileset firstgid="305" name="Desert" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48" columns="8">
+  <image source="../../../../../../../Program Files (x86)/Tiled/examples/tmw_desert_spacing.png" width="265" height="199"/>
+  <terraintypes>
+   <terrain name="Sand" tile="29"/>
+   <terrain name="Cobblestone" tile="9"/>
+   <terrain name="Pavement" tile="33"/>
+   <terrain name="Dirt" tile="14"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,1"/>
+  <tile id="1" terrain="0,0,1,1"/>
+  <tile id="2" terrain="0,0,1,0"/>
+  <tile id="3" terrain="3,3,3,0"/>
+  <tile id="4" terrain="3,3,0,3"/>
+  <tile id="5" terrain="0,0,0,3"/>
+  <tile id="6" terrain="0,0,3,3"/>
+  <tile id="7" terrain="0,0,3,0"/>
+  <tile id="8" terrain="0,1,0,1"/>
+  <tile id="9" terrain="1,1,1,1"/>
+  <tile id="10" terrain="1,0,1,0"/>
+  <tile id="11" terrain="3,0,3,3"/>
+  <tile id="12" terrain="0,3,3,3"/>
+  <tile id="13" terrain="0,3,0,3"/>
+  <tile id="14" terrain="3,3,3,3"/>
+  <tile id="15" terrain="3,0,3,0"/>
+  <tile id="16" terrain="0,1,0,0"/>
+  <tile id="17" terrain="1,1,0,0"/>
+  <tile id="18" terrain="1,0,0,0"/>
+  <tile id="19" terrain="1,1,1,0"/>
+  <tile id="20" terrain="1,1,0,1"/>
+  <tile id="21" terrain="0,3,0,0"/>
+  <tile id="22" terrain="3,3,0,0"/>
+  <tile id="23" terrain="3,0,0,0"/>
+  <tile id="24" terrain="0,0,0,2"/>
+  <tile id="25" terrain="0,0,2,2"/>
+  <tile id="26" terrain="0,0,2,0"/>
+  <tile id="27" terrain="1,0,1,1"/>
+  <tile id="28" terrain="0,1,1,1"/>
+  <tile id="29" terrain="0,0,0,0"/>
+  <tile id="32" terrain="0,2,0,2"/>
+  <tile id="33" terrain="2,2,2,2"/>
+  <tile id="34" terrain="2,0,2,0"/>
+  <tile id="35" terrain="2,2,2,0"/>
+  <tile id="36" terrain="2,2,0,2"/>
+  <tile id="40" terrain="0,2,0,0"/>
+  <tile id="41" terrain="2,2,0,0"/>
+  <tile id="42" terrain="2,0,0,0"/>
+  <tile id="43" terrain="2,0,2,2"/>
+  <tile id="44" terrain="0,2,2,2"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJy9lt1SwkAMRtlH0lKoglisYhVhBoQL/97/NQxjM36EZCfbFi7OBXS7ZzfJbroOg8G6YUbcJ1LC+11ZEM8O8jP5vWCcpkRxAeeIGDfciRxM4dm45XquiGuDLKTVRkpOeL03xK3BJBzXRh5xD4k6wc/rZf8j8dDwBH4r/7G9Y86svEg/urT/0D8Mp2ejBresEy0vbfwL4WJeiFdiKWI0NMa38cdiuiG2xHs4rpfYOlP9Mvd4/tn/3cxt1RyuM8Wv5RTXwPPy3H36LTfW1gexJ3bEV9DvlUz4OT/Sf3hvBf/Fah5zvGnmHQX9XpkIvxVrvA+qYNc81mUB/pmIK/oPcfqEGMX8b8G+l+X9XDr92votvwe+n2vw82/Nz2e46MnPMcrAz3W3UvxcS6XDr/UDCY+pwD833vH65zCnHKPFH8+2Vtep/liNpPh5H4x1ls7l13qG1os9frkX3FPML79r83Dai2N+7lcefsJf/7GeL8P/2fT6sa90hdcm++Ol/FZ/jPn5vvawB8cuMg7vftnrrPrz4P0GsM6Vp99YPagPf1smHfzWuU6h6uDvk1T/LxwtG8A=
+  </data>
+ </layer>
+</map>
